@@ -235,6 +235,7 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
 }
 
 header .header-content .header-content-inner hr {
@@ -255,7 +256,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 74%;
+        top: 80%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -518,9 +519,9 @@ body {
 
 /************* ANIMATIONS ******************/
 
-body {
+/*body {
     overflow: hidden
-}
+}*/
 #bubbles {
     position: absolute;
     left: 37%;
@@ -538,8 +539,8 @@ body {
 }
 
 .x1 {
-    -webkit-transform: scale(0.7);
-    transform: scale(0.7);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
     opacity: 0.2;
     -webkit-animation: moveclouds 14s linear infinite, sideWays 2s ease-in-out infinite alternate;
 }
