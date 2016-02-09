@@ -11,19 +11,19 @@ head
     title Emma Beaton
 
     //- Bootstrap Core CSS
-    link(rel="stylesheet" href="public/lib/boostrap/dist/css/bootstrap.min.css" type="text/css")
+    link(rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" type="text/css")
 
     //- Custom Fonts
     link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css')
     link(href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css')
-    link(rel="stylesheet" href="../public/lib/font-awesome/css/font-awesome.min.css" type="text/css")
+    link(rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css" type="text/css")
 
     //- Plugin CSS
-    link(rel="stylesheet" href="../public/stylesheets/animate.min.css" type="text/css")
+    link(rel="stylesheet" href="/stylesheets/animate.min.css" type="text/css")
 
     //- Custom CSS
-    link(rel="stylesheet" href="../public/stylesheets/creative.css" type="text/css")
+    link(rel="stylesheet" href="/stylesheets/creative.css" type="text/css")
 
 
 body(id="page-top")
@@ -33,15 +33,18 @@ body(id="page-top")
 
     block scripts
         //- jQuery
-        script(src="../public/lib/dist/jquery.min.js")
+        script(src="/lib/jquery/dist/jquery.min.js")
 
         //- Bootstrap Core JavaScript -->
-        script(src="../public/lib/dist/js/bootstrap.min.js")
+        script(src="/lib/bootstrap/dist/js/bootstrap.min.js")
 
         //- Plugin JavaScript -->
-        script(src="js/jquery.easing.min.js")
-        script(src="js/jquery.fittext.js")
-        script(src="js/wow.min.js")
+        script(src="/lib/jquery.easing.min.js")
+        script(src="/lib/jquery.fittext.js")
+        script(src="/lib/wow.min.js")
 
         //- Custom Theme JavaScript -->
-        script(src="js/creative.js")
+        script(src="/javascripts/creative.js")
+
+        //- My JS
+        script(src="/javascripts/my-bootstrap-js.js")

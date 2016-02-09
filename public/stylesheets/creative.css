@@ -281,15 +281,15 @@ header {
 }
 
 #header-landing {
-    background-image: url(../img/filtered/straight-on.JPG);
+    background-image: url(/img/filtered/straight-on.JPG);
 }
 
 #header-dev {
-    background-image: url(../img/filtered/sipping.JPG);
+    background-image: url(/img/filtered/sipping.JPG);
 }
 
 #header-music {
-    background-image: url(../img/filtered/em.JPG);
+    background-image: url(/img/filtered/em.JPG);
 }
 
 header .header-content {

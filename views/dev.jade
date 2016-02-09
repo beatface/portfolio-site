@@ -1,0 +1,266 @@
+extends template.jade
+
+block content
+
+    nav(id="mainNav" class="navbar navbar-default navbar-fixed-top")
+        .container-fluid
+            //- Brand and toggle get grouped for better mobile display -->
+            .navbar-header
+                button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand.page-scroll(href="/") Emma Beaton
+
+            //- Collect the nav links, forms, and other content for toggling -->
+            div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+                ul.nav.navbar-nav.navbar-right
+                    li
+                        a.page-scroll(href="#about") About
+                    li
+                        a.page-scroll(href="#technologies") Technologies
+                    li
+                        a.page-scroll(href="#portfolio") Portfolio
+                    li
+                        a.page-scroll(href="#contact") Contact
+            //- /.navbar-collapse -->
+        //- /.container-fluid -->
+
+    header#header-dev
+        #bubbles
+            div.bubble.x1
+            div.bubble.x2
+            div.bubble.x3
+            div.bubble.x4
+            div.bubble.x5
+            div.bubble.x6
+            div.bubble.x7
+            div.bubble.x8
+            div.bubble.x9
+        .header-content
+            .header-content-inner
+                h1 Emma Beaton
+                hr
+                a.btn.btn-primary.btn-xl.page-scroll(href="#about") Developer
+
+
+    section.bg-primary#about
+        .container
+            .row
+                .col-lg-8.col-lg-offset-2.text-center
+                    h2.section-heading About Emma
+                    hr.light
+                    p.text-faded Unlike many high school students, I always loved math class. I loved the critical and logical thinking, the black and white of it. The daughter of an actuary, it seemed natural to find a career where I put those strengths of mine to use, however, around the same time, I found a love for the cello, and I found myself on my way to Berklee College of Music, and soon after, joining a band called Joy Kills Sorrow.#[br]#[br] Music saw me travel all around the world, across Canada, all 50 states, Denmark, Switzerland, Germany, Scotland, Holland, New Zealand and more. After 6 years touring full-time, I decided it was time for a change, and I started working at a tech startup, Concert Window, in New York as their Artist Relations Manager. During my time there, we graduated from Techstars NYC. I developed key initiatives to grow sales and helped double revenue. It was at Concert Window and Techstars that I grew interested in software development and saw a way back into the environment I’d grown up loving.#[br]#[br] I’m currently in my second semester as an apprentice at Nashville Software School. Never before have I enjoyed learning as much as I do now. Software development is a place where I thrive, excited about new technologies and ever-searching for ways to write better code. In my first semester, I won the #[br]award for #[a(rel="popover" data-img="https://media.giphy.com/media/xTiTnDYmVpG4I8KKrK/giphy.gif") top developer] in my class.#[br]#[br] I love working in teams and tackling complex problems. Detailed planning and time-management gets me psyched. I’m excited to find my dream job working in a creative, fast-paced environment with like-minded, fun-but-focussed individuals.
+
+    section#technologies
+        .container
+            .row
+                .col-lg-12.text-center
+                    h2.section-heading Technologies
+                    hr.primary
+
+        .container
+            .row.btm-pad
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/AngularJS.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/node-js.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/javascript.jpg")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/HTML5.png")
+
+            .row.btm-pad
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/github.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/grunt.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/express.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/jQurery.gif")
+
+            .row.btm-pad
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/sass.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/ionic.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/git.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/lodash.png")
+
+            .row.btm-pad
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/mocha.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/chai-logo.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/bower.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/firebase.png")
+
+            .row
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/gulp.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/requirejs.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/angular-ui.png")
+
+                .col-lg-3.col-md-6.text-center
+                    .service-box
+                        img(src="img/logos/mongodb.png")
+
+
+    //- PORTFOLIO -->
+    section.no-padding#portfolio
+        .container-fluid
+            .row.no-gutter
+                .col-lg-4.col-sm-6
+                    a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank" class="portfolio-box")
+                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
+                        .portfolio-box-caption
+                            .portfolio-box-caption-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
+
+
+                <!-- Portfolio 2 -->
+                .col-lg-4.col-sm-6.portfolio-item
+                    a(href="#portfolioModal1" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
+                                //- <!-- <i class="fa fa-plus fa-3x"></i> -->
+                        img(src="img/portfolio/2.jpg" class="img-responsive" alt="")
+
+                    <!-- Portfolio Modal 2 -->
+                    .portfolio-modal.modal.fade#portfolioModal1(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
+
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Project Name
+                                            p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+                                            img.img-responsive.img-centered(src="img/portfolio/2.jpg" alt="")
+                                            p Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                            p #[strong Want these icons in this portfolio item sample?] You can download 60 of them for free, courtesy of #[a(href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc") RoundIcons.com], or you can purchase the 1500 icon set dfdafa.
+                                            ul.list-inline
+                                                li Date: July 2014
+                                                li Client: Round Icons
+                                                li Category: Graphic Design
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal")
+                                                #[i.fa.fa-times] Close Project
+
+
+
+
+                .col-lg-4.col-sm-6
+                    a(href="#" class="portfolio-box")
+                        img(src="img/portfolio/3.jpg" class="img-responsive" alt="")
+                        .portfolio-box-caption
+                            .portfolio-box-caption-content
+                                .project-category.text-faded Category
+                                .project-name Project Name
+
+                .col-lg-4.col-sm-6
+                    a(href="#" class="portfolio-box")
+                        img(src="img/portfolio/4.jpg" class="img-responsive" alt="")
+                        .portfolio-box-caption
+                            .portfolio-box-caption-content
+                                .project-category.text-faded Category
+                                .project-name Project Name
+
+                .col-lg-4.col-sm-6
+                    a(href="#" class="portfolio-box")
+                        img(src="img/portfolio/5.jpg" class="img-responsive" alt="")
+                        .portfolio-box-caption
+                            .portfolio-box-caption-content
+                                .project-category.text-faded Category
+                                .project-name Project Name
+
+                .col-lg-4.col-sm-6
+                    a(href="#" class="portfolio-box")
+                        img(src="img/portfolio/6.jpg" class="img-responsive" alt="")
+                        .portfolio-box-caption
+                            .portfolio-box-caption-content
+                                .project-category.text-faded Category
+                                .project-name Project Name
+
+
+
+
+
+    aside.bg-dark
+        .container.text-center
+            .call-to-action
+                //- <h2>Free Download at Start Bootstrap!</h2>
+                //- <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+
+    section#contact
+        .container
+            .row
+                .col-lg-8.col-lg-offset-2.text-center
+                    h2.section-heading Let's Get In Touch!
+                    hr.primary
+                    p Interested in my work?
+                .col-lg-2.col-lg-offset-2.text-center
+                    a(href="https://twitter.com/iambeato")
+                        i.fa.fa-twitter.fa-3x.wow.bounceIn(data-wow-delay=".1s")
+                    p
+                        a(href="https://twitter.com/iambeato") @iambeato
+                .col-lg-2.text-center
+                    a(href="https://github.com/beatface")
+                        i.fa.fa-github.fa-3x.wow.bounceIn(data-wow-delay=".1s")
+                .col-lg-2.text-center
+                    a(href="https://www.linkedin.com/in/emma-beaton-0822209a")
+                        i.fa.fa-linkedin-square.fa-3x.wow.bounceIn(data-wow-delay=".1s")
+                .col-lg-2.text-center
+                    a(href="mailto:emma.beaton@gmail.com")
+                        i.fa.fa-envelope-o.fa-3x.wow.bounceIn(data-wow-delay=".1s")
+                    p
+                        a(href="mailto:emma.beaton@gmail.com") emma.beaton@gmail.com
+
+
