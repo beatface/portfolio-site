@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "PORT=3000 nodemon --harmony-destructuring server.js",
+    "bower": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatface/portfolio-site.git"
+  },
+  "author": "“Emma <“emma.beaton@gmail.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatface/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/beatface/portfolio-site#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "lodash": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
