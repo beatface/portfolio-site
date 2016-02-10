@@ -151,27 +151,54 @@ block content
     section.no-padding#portfolio
         .container-fluid
             .row.no-gutter
-                .col-lg-4.col-sm-6
-                    a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank" class="portfolio-box")
-                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
-                        .portfolio-box-caption
-                            .portfolio-box-caption-content
-                                .project-category.text-faded Front-End
-                                .project-name Newsily
-
-
-                <!-- Portfolio 2 -->
+                //- --------------------------
+                //- Portfolio 1 -- NEWSILY -->
+                //- --------------------------
                 .col-lg-4.col-sm-6.portfolio-item
                     a(href="#portfolioModal1" class="portfolio-link" data-toggle="modal")
                        .portfolio-hover
                             .portfolio-hover-content
                                 .project-category.text-faded Front-End
                                 .project-name Newsily
-                                //- <!-- <i class="fa fa-plus fa-3x"></i> -->
+                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
+
+                    //- Portfolio Modal 1 -->
+                    .portfolio-modal.modal.fade#portfolioModal1(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
+
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Newsily
+                                            p.item-intro.text-muted Less noise, more news.
+                                            img.img-responsive.img-centered(src="img/portfolio/newsily.png" alt="")
+                                            p Newsily is a social sharing app for private groups. Much like Slack, users can sign up and create or join new private groups, as well as invite new members via email address. Easily post links, make comments, and favourite posts to keep track of articles and websites that you and your group members are interested in.
+                                            p #[strong Want these icons in this portfolio item sample?] You can download 60 of them for free, courtesy of #[a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank") RoundIcons.com], or you can purchase the 1500 icon set dfdafa.
+                                            ul.list-inline
+                                                li Date: July 2014
+                                                li Client: Round Icons
+                                                li Category: Graphic Design
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal")
+                                                #[i.fa.fa-times] Close Project
+
+                //- --------------------------
+                //- Portfolio 2 -->
+                //- --------------------------
+                .col-lg-4.col-sm-6.portfolio-item
+                    a(href="#portfolioModal2" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
                         img(src="img/portfolio/2.jpg" class="img-responsive" alt="")
 
-                    <!-- Portfolio Modal 2 -->
-                    .portfolio-modal.modal.fade#portfolioModal1(tabindex="-1" role="dialog" aria-hidden="true")
+                     //- Portfolio Modal 2 -->
+                    .portfolio-modal.modal.fade#portfolioModal2(tabindex="-1" role="dialog" aria-hidden="true")
                         .modal-content
                             .close-modal(data-dismiss="modal")
                                 .lr
@@ -195,40 +222,142 @@ block content
                                                 #[i.fa.fa-times] Close Project
 
 
+                //- --------------------------
+                //- Portfolio 3
+                //- --------------------------
+                .col-lg-4.col-sm-6.portfolio-item
+                    a(href="#portfolioModal3" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
+                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
 
+                    //- Portfolio Modal 3 -->
+                    .portfolio-modal.modal.fade#portfolioModal3(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
 
-                .col-lg-4.col-sm-6
-                    a(href="#" class="portfolio-box")
-                        img(src="img/portfolio/3.jpg" class="img-responsive" alt="")
-                        .portfolio-box-caption
-                            .portfolio-box-caption-content
-                                .project-category.text-faded Category
-                                .project-name Project Name
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Newsily
+                                            p.item-intro.text-muted Less noise, more news.
+                                            img.img-responsive.img-centered(src="img/portfolio/newsily.png" alt="")
+                                            p Newsily is a social sharing app for private groups. Much like Slack, users can sign up and create or join new private groups, as well as invite new members via email address. Easily post links, make comments, and favourite posts to keep track of articles and websites that you and your group members are interested in.
+                                            p #[strong Want these icons in this portfolio item sample?] You can download 60 of them for free, courtesy of #[a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank") RoundIcons.com], or you can purchase the 1500 icon set dfdafa.
+                                            ul.list-inline
+                                                li Date: July 2014
+                                                li Client: Round Icons
+                                                li Category: Graphic Design
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal")
+                                                #[i.fa.fa-times] Close Project
+                //- --------------------------
+                //- Portfolio 4
+                //- --------------------------
+                .col-lg-4.col-sm-6.portfolio-item
+                    a(href="#portfolioModal4" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
+                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
 
-                .col-lg-4.col-sm-6
-                    a(href="#" class="portfolio-box")
-                        img(src="img/portfolio/4.jpg" class="img-responsive" alt="")
-                        .portfolio-box-caption
-                            .portfolio-box-caption-content
-                                .project-category.text-faded Category
-                                .project-name Project Name
+                    //- Portfolio Modal 4
+                    .portfolio-modal.modal.fade#portfolioModal4(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
 
-                .col-lg-4.col-sm-6
-                    a(href="#" class="portfolio-box")
-                        img(src="img/portfolio/5.jpg" class="img-responsive" alt="")
-                        .portfolio-box-caption
-                            .portfolio-box-caption-content
-                                .project-category.text-faded Category
-                                .project-name Project Name
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Newsily
+                                            p.item-intro.text-muted Less noise, more news.
+                                            img.img-responsive.img-centered(src="img/portfolio/newsily.png" alt="")
+                                            p Newsily is a social sharing app for private groups. Much like Slack, users can sign up and create or join new private groups, as well as invite new members via email address. Easily post links, make comments, and favourite posts to keep track of articles and websites that you and your group members are interested in.
+                                            p #[strong Want these icons in this portfolio item sample?] You can download 60 of them for free, courtesy of #[a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank") RoundIcons.com], or you can purchase the 1500 icon set dfdafa.
+                                            ul.list-inline
+                                                li Date: July 2014
+                                                li Client: Round Icons
+                                                li Category: Graphic Design
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal")
+                                                #[i.fa.fa-times] Close Project
+                //- --------------------------
+                //- Portfolio 5
+                //- --------------------------
+                .col-lg-4.col-sm-6.portfolio-item
+                    a(href="#portfolioModal5" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
+                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
 
-                .col-lg-4.col-sm-6
-                    a(href="#" class="portfolio-box")
-                        img(src="img/portfolio/6.jpg" class="img-responsive" alt="")
-                        .portfolio-box-caption
-                            .portfolio-box-caption-content
-                                .project-category.text-faded Category
-                                .project-name Project Name
+                    //- Portfolio Modal 5 -->
+                    .portfolio-modal.modal.fade#portfolioModal5(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
 
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Newsily
+                                            p.item-intro.text-muted Less noise, more news.
+                                            img.img-responsive.img-centered(src="img/portfolio/newsily.png" alt="")
+                                            p Newsily is a social sharing app for private groups. Much like Slack, users can sign up and create or join new private groups, as well as invite new members via email address. Easily post links, make comments, and favourite posts to keep track of articles and websites that you and your group members are interested in.
+                                            p #[strong Want these icons in this portfolio item sample?] You can download 60 of them for free, courtesy of #[a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank") RoundIcons.com], or you can purchase the 1500 icon set dfdafa.
+                                            ul.list-inline
+                                                li Date: July 2014
+                                                li Client: Round Icons
+                                                li Category: Graphic Design
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal")
+                                                #[i.fa.fa-times] Close Project
+                //- --------------------------
+                //- Portfolio 6
+                //- --------------------------
+                .col-lg-4.col-sm-6.portfolio-item
+                    a(href="#portfolioModal6" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Front-End
+                                .project-name Newsily
+                        img(src="img/portfolio/newsily.png" class="img-responsive" alt="")
+
+                    //- Portfolio Modal 6 -->
+                    .portfolio-modal.modal.fade#portfolioModal6(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
+
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Newsily
+                                            p.item-intro.text-muted Less noise, more news.
+                                            img.img-responsive.img-centered(src="img/portfolio/newsily.png" alt="")
+                                            p Newsily is a social sharing app for private groups. Much like Slack, users can sign up and create or join new private groups, as well as invite new members via email address. Easily post links, make comments, and favourite posts to keep track of articles and websites that you and your group members are interested in.
+                                            p #[strong Want these icons in this portfolio item sample?] You can download 60 of them for free, courtesy of #[a(href="http://beatface.github.io/newsily-capstone/#/login" target ="_blank") RoundIcons.com], or you can purchase the 1500 icon set dfdafa.
+                                            ul.list-inline
+                                                li Date: July 2014
+                                                li Client: Round Icons
+                                                li Category: Graphic Design
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal")
+                                                #[i.fa.fa-times] Close Project
 
 
 
