@@ -1,16 +1,7 @@
-/*!
- * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 
-
-/******************************
-********  MY STYLES  **********
-******************************/
 
 img {
-    height: 120px;
+    height: 110px;
 }
 
 .btm-pad {
@@ -42,16 +33,11 @@ a i.fa {
     left: 50%;
 }
 
+/** Lightening bolts for music **/
 #l1,
 #l2,
 #l3,
-#l4,
-#l5,
-#l6,
-#l7,
-#l8,
-#l9,
-#l10 {
+#l4 {
     position: relative;
 }
 
@@ -72,9 +58,6 @@ a i.fa {
     right: 137px;
 }
 
-/***************************
-******* MY STYLES END ******
-****************************/
 
 html,
 body {
@@ -290,6 +273,11 @@ header {
 
 #header-music {
     background-image: url(/img/filtered/em.JPG);
+}
+
+#portBreak {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 header .header-content {
@@ -693,12 +681,7 @@ body {
 
 
 
-
-
-
-
-
-/**********/
+/***** PORTFOLIO ITEMS *****/
 
 
 
