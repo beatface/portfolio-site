@@ -547,7 +547,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 15px 30px;
 }
-
+.devbtn {
+    margin-right: 10px;
+}
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
@@ -688,11 +690,15 @@ body {
 #portfolio .portfolio-item {
   margin: 0;
   right: 0;
+  background-color: #222;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link img {
+    margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(240,95,64,.9);

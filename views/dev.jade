@@ -160,7 +160,7 @@ block content
                 //- --------------------------
                 //- Portfolio 1 -- NEWSILY -->
                 //- --------------------------
-                .col-lg-4.col-md-4.col-sm-12.portfolio-item
+                .col-lg-6.col-md-6.col-sm-12.portfolio-item
                     a(href="#portfolioModal1" class="portfolio-link" data-toggle="modal")
                        .portfolio-hover
                             .portfolio-hover-content
@@ -192,7 +192,7 @@ block content
                 //- --------------------------
                 //- Portfolio 2 -->
                 //- --------------------------
-                .col-lg-4.col-md-4.col-sm-12.portfolio-item
+                .col-lg-6.col-md-6.col-sm-12.portfolio-item
                     a(href="#portfolioModal2" class="portfolio-link" data-toggle="modal")
                        .portfolio-hover
                             .portfolio-hover-content
@@ -225,7 +225,7 @@ block content
                 //- --------------------------
                 //- Portfolio 3
                 //- --------------------------
-                .col-lg-4.col-md-4.col-sm-12.portfolio-item
+                .col-lg-6.col-md-6.col-sm-12.portfolio-item
                     a(href="#portfolioModal3" class="portfolio-link" data-toggle="modal")
                        .portfolio-hover
                             .portfolio-hover-content
@@ -245,13 +245,44 @@ block content
                                     .col-lg-8.col-lg-offset-2
                                         .modal-body
                                             //- <!-- Project Details Go Here -->
-                                            h2 Weather
-                                            p.item-intro.text-muted Weather app, coming shortly!
+                                            h2 WeatherForever
+                                            p.item-intro.text-muted Weather made simple.
                                             img.img-responsive.img-centered(src="img/portfolio/weatherforever.png" alt="")
                                             p WeatherForever is a simple mobile Ionic app using the Weather Underground API and saving searches to each user's local storage. The slide layout is optimal for touch screen devices with smaller screen widths, but works on computers as well.
                                             p #[a(href="http://weatherforever.emmabeaton.com/" target ="_blank") weatherforever.emmabeaton.com]
                                             ul.list-inline
                                                 li Technologies: Ionic, Express
+                                            button(type="button" class="btn btn-primary" data-dismiss="modal") #[i.fa.fa-times] Close Project
+                //- --------------------------
+                //- Portfolio 4
+                //- --------------------------
+                .col-lg-6.col-md-6.col-sm-12.portfolio-item
+                    a(href="#portfolioModal4" class="portfolio-link" data-toggle="modal")
+                       .portfolio-hover
+                            .portfolio-hover-content
+                                .project-category.text-faded Full Stack
+                                .project-name Dashbored
+                        img(src="img/portfolio/dashbored.jpg" class="img-responsive" alt="")
+
+                    //- Portfolio Modal 3 -->
+                    .portfolio-modal.modal.fade#portfolioModal4(tabindex="-1" role="dialog" aria-hidden="true")
+                        .modal-content
+                            .close-modal(data-dismiss="modal")
+                                .lr
+                                    .rl
+
+                            .container
+                                .row
+                                    .col-lg-8.col-lg-offset-2
+                                        .modal-body
+                                            //- <!-- Project Details Go Here -->
+                                            h2 Dashbored
+                                            p.item-intro.text-muted A dashboard for when you're bored.
+                                            img.img-responsive.img-centered(src="img/portfolio/dashbored.jpg" alt="")
+                                            p Dashbored is a desktop app built on Electron. Using Node.js, ExpressJS, and Sqlite in the back end, and Electron and AngularJS in the front, Dashbored takes inspiration from Mac's built-in dashboard with draggable widgets for Twitter, a calculator, a Javascript snake game, a notes app, and a CSS animated clock.
+                                            p #[a(href="http://dashbored.emmabeaton.com/" target ="_blank") dashbored.emmabeaton.com]
+                                            ul.list-inline
+                                                li Technologies: Node.js, ExpressJS, Sqlite, Electron, AngularJS
                                             button(type="button" class="btn btn-primary" data-dismiss="modal") #[i.fa.fa-times] Close Project
                 
 
